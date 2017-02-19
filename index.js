@@ -1,4 +1,5 @@
-fs = require('fs');
+const fs = require('fs');
+const request = require('request');
 
 fs.readFile('./BrowserHistory.json', function(error, data){
   if (error){
@@ -14,6 +15,9 @@ fs.readFile('./BrowserHistory.json', function(error, data){
   }).map((item) => {
     item.class = 'unkown';
     item.time_usec = new Date(item.time_usec);
+    delete item.client_id;
+    delete item.favicon_url;
+    delete item.page_transition;
     return item;
   });
   console.log(log);
