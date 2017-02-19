@@ -1,0 +1,23 @@
+{
+  "name": "loganalysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1CTWgha/loganalysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1CTWgha/loganalysis/issues"
+  },
+  "homepage": "https://github.com/1CTWgha/loganalysis#readme"
+}
